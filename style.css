@@ -214,3 +214,112 @@ footer {
     font-weight: 700;
     z-index: 10;
 }
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    padding-bottom: 40px;
+}
+
+header {
+    padding: 40px 20px;
+    text-align: center;
+    background: white;
+    border-bottom: 1px solid #eee;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    color: var(--cor-museu-escura);
+}
+
+.subtitle {
+    font-size: 0.9rem;
+    color: #8d6e63;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+
+/* Grid de Monumentos */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 15px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+/* Cartão do Monumento */
+.card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s;
+}
+
+.card:active {
+    transform: scale(0.98);
+}
+
+.card-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.card-info {
+    padding: 15px;
+    flex-grow: 1;
+}
+
+.card-info h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+    margin-bottom: 4px;
+    color: var(--cor-museu-escura);
+}
+
+.card-info p {
+    font-size: 0.85rem;
+    color: #666;
+}
+
+.seta {
+    padding-right: 20px;
+    color: var(--cor-destaque);
+    font-weight: bold;
+}
+
+/* Botão Flutuante para Escanear */
+.fab-scan {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: var(--cor-destaque);
+    color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 0 4px 15px rgba(191, 54, 12, 0.4);
+    font-size: 1.5rem;
+    z-index: 100;
+}
