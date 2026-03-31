@@ -1,24 +1,22 @@
-const scanner = new Instascan.Scanner({
-  video: document.getElementById('webcam'),
-  scanPeriod: 5,
-  mirror: false
+let scanner = new Instascan.Scanner({ 
+  video: document.getElementById('preview'),
+  mirror: false // Importante para ler QR Codes sem espelhar
 });
 
-scanner.addListener('scan', content => {
-  console.log('QR LIDO:', content);
-  alert('QR LIDO: ' + content);
+scanner.addListener('scan', function (content) {
+// O Instascan lê o conteúdo do QR Code. 
+// Se o QR Code tiver apenas o ID (ex: "gilda"), redirecionamos:
+  window.location.href = 'index.html?id=' + content;
 });
 
-Instascan.Camera.getCameras()
-  .then(cameras => {
-    if (cameras.length > 0) {
-      scanner.start(cameras[0]);
-    } else {
-      console.error('Nenhuma câmera encontrada.');
-      alert('Nenhuma câmera encontrada.');
-    }
-  })
-  .catch(e => {
-    console.error(e);
-    alert('Erro ao acessar câmera: ' + e);
-  });
+Instascan.Camera.getCameras().then(function (cameras) {
+  if (cameras.length > 0) {
+  // Tenta pegar a câmera traseira (geralmente a última da lista no Android/Chrome)
+    let selectedCam = cameras[cameras.length - 1]; 
+      scanner.start(selectedCam); }
+  else {
+    alert('Nenhuma câmera encontrada. Verifique as permissões do navegador.');}
+      }).catch(function (e) {
+          console.error(e);
+          alert('Erro ao acessar câmera: ' + e);
+      });

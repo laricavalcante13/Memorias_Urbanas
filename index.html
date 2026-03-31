@@ -1,18 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Memórias Urbanas | Monumento</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
 </head>
 <body>
-    <video id="webcam"></video>
 
-    <script src="https://rawgit.com/schmich/instascan-builds/master/instascan.min.js"></script>
-    <script src="script.js"></script>
-   
+    <div class="page-container">
+        <div class="hero-banner">
+            <a href="home.html" class="btn-voltar">← Escanear Outro</a>
+            <img id="img-monumento" src="" alt="">
+        </div>
 
+        <main class="content">
+            <span id="categoria" class="categoria-tag">Carregando...</span>
+            <h1 id="nome-monumento">Buscando memórias...</h1>
+            <p class="autor-data">Por <span id="autor"></span>, <span id="ano"></span></p>
 
-    
+            <div id="historia" class="historia-texto">
+                </div>
+
+            <div class="curiosidade-box">
+                <h3>O que poucos sabem...</h3>
+                <p id="curiosidade-texto"></p>
+            </div>
+        </main>
+
+        <footer>
+            <p>O que você achou dessa experiência?</p>
+            <a href="URL_DO_SEU_FORMS" class="btn-pesquisa" target="_blank">Responder Pesquisa</a>
+            <p style="margin-top:30px; font-size:0.7rem; opacity:0.6;">Memórias Urbanas Curitiba &copy; 2026</p>
+        </footer>
+    </div>
+
+    <script>
+        // 1. Pega o ID que veio do leitor (ex: index.html?id=gilda)
+        const urlParams = new URLSearchParams(window.location.search);
+        const idMonumento = urlParams.get('id');
+
+        // 2. Carrega o banco de dados JSON
+        fetch('dados.json')
+            .then(res => res.json())
+            .then(dados => {
+                // 3. Busca o monumento na lista
+                const monumento = dados.find(m => m.id === idMonumento);
+
+                if (monumento) {
+                    // 4. Preenche o HTML com as informações
+                    document.title = monumento.nome_popular + " | Memórias Urbanas";
+                    document.getElementById('img-monumento').src = monumento.imagem;
+                    document.getElementById('nome-monumento').innerText = monumento.nome_popular;
+                    document.getElementById('categoria').innerText = monumento.categoria;
+                    document.getElementById('autor').innerText = monumento.autor;
+                    document.getElementById('ano').innerText = monumento.ano;
+                    document.getElementById('historia').innerHTML = monumento.historia;
+                    document.getElementById('curiosidade-texto').innerText = monumento.curiosidade;
+                } else {
+                    // Caso o ID não exista
+                    document.querySelector('.content').innerHTML = "<h1>Monumento não encontrado.</h1><p>Por favor, tente escanear novamente.</p>";
+                }
+            })
+            .catch(err => {
+                console.error("Erro ao carregar dados:", err);
+                alert("Erro ao carregar as informações do monumento.");
+            });
+    </script>
 </body>
 </html>
