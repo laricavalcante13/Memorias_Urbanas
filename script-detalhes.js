@@ -14,6 +14,7 @@ async function carregarDetalhes() {
         if (monumento) {
             // 4. Preenche os elementos do HTML com os dados do JSON
             document.title = `Memórias Urbanas | ${monumento.nome_popular}`;
+            document.getElementById('categoria').innerText = monumento.categoria;
             document.getElementById('foto-monumento').src = monumento.imagem;
             document.getElementById('nome-monumento').innerText = monumento.nome_popular;
             document.getElementById('autor-monumento').innerText = monumento.autor;
@@ -24,7 +25,7 @@ async function carregarDetalhes() {
             // Link do Forms (ajuste conforme o seu ID do Google Forms)
             const linkFeedback = document.getElementById('link-feedback');
             if(linkFeedback) {
-                linkFeedback.href = `https://docs.google.com/forms/d/e/SEU_ID_AQUI/viewform?entry.12345=${monumento.nome_popular}`;
+                linkFeedback.href = `https://forms.gle/VGrrdsTBfBEYJcrq9?entry.12345=${monumento.nome_popular}`;
             }
 
         } else {

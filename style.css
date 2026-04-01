@@ -29,37 +29,31 @@ h1 {
     letter-spacing: 2px;
 }
 
-/* Container da Câmera */
 .scanner-container {
-    width: 90%;
-    max-width: 400px;
-    margin: 30px auto;
-    border: 8px solid #fff;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-    position: relative;
-    overflow: hidden;
-    border-radius: 15px;
-    background: #000;
-}
-
-video#preview {
     width: 100%;
-    height: auto;
-    display: block;
-    transform: scaleX(1);
+    max-width: 500px;
+    min-height: 300px; /* Garante que a área exista mesmo antes da câmera abrir */
+    margin: 20px auto;
+    background-color: #000; /* Fundo preto para você ver onde ele está */
+    border-radius: 12px;
+    overflow: hidden;
 }
 
-/* Moldura de Mira */
-.overlay {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 200px;
-    height: 200px;
-    border: 2px solid rgba(255, 255, 255, 0.5);
-    box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.4);
-    border-radius: 10px;
+/* Isso força os botões e textos da biblioteca a aparecerem com destaque */
+#reader {
+    border: none !important;
+    padding: 10px;
+}
+
+#reader button {
+    padding: 10px 20px;
+    background-color: #bf360c; /* Cor de destaque do seu projeto */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
 }
 
 .instrucao {

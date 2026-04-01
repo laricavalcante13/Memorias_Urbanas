@@ -1,35 +1,20 @@
-//Lógica do instascan em home.html para ler o QR Code e redirecionar para a página com o ID do monumento
-let scanner = new Instascan.Scanner({
-  video: document.getElementById('preview'),
-  scanPeriod: 5,
-  mirror: false // Importante para ler QR Codes sem espelhar
-});
+// Função chamada quando o QR Code é detectado
+function onScanSuccess(decodedText) {
+    // Para o scanner para economizar processamento
+    html5QrcodeScanner.clear();
+    // Redireciona
+    window.location.href = `index.html?id=${decodedText}`;
+}
 
-scanner.addListener('scan', function (content) {
-  // O Instascan lê o conteúdo do QR Code. 
-  // Se o QR Code tiver apenas o ID (ex: "gilda"), redirecionamos:
-  window.location.href = 'index.html?id=' + content;
-});
+// Configuração do leitor
+const config = { 
+    fps: 10, 
+    qrbox: { width: 250, height: 250 },
+    aspectRatio: 1.0 
+};
 
-Instascan.Camera.getCameras().then(function (cameras) {
-   if (cameras.length > 0) {
-    scanner.start(cameras[0]);
-  /*
-    if (cameras.length > 0) {
-      // Tenta pegar a câmera traseira (geralmente a última da lista no Android/Chrome)
-      let selectedCam = cameras[cameras.length - 1];
-      scanner.start(selectedCam);
+// Cria a instância do scanner
+let html5QrcodeScanner = new Html5QrcodeScanner("reader", config, false);
 
-  */
-  
-  }
-  else {
-    alert('Nenhuma câmera encontrada. Verifique as permissões do navegador.');
-  }
-}).catch(function (e) {
-  console.error(e);
-  alert('Erro ao acessar câmera: ' + e);
-});
-
-
-
+// Renderiza o leitor na tela
+html5QrcodeScanner.render(onScanSuccess);
