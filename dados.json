@@ -9,7 +9,7 @@
     "longitude": -49.23902,
     "categoria": "Chafariz / Escultura",
     "imagem": "assets/amor-materno.jpg",
-    "historia": "<p>Instalada no Jardim Botânico em 1993 para o tricentenário de Curitiba, esta obra de João Zaco Paraná transmite o afeto universal entre mãe e filho.</p>",
+    "historia": "<p>O Memorial foi concebido como uma homenagem à cultura do Oriente Médio, funcionando também como uma biblioteca especializada. Sua proposta valoriza a preservação e difusão do legado cultural árabe, com destaque para a literatura e o pensamento de grandes autores dessa tradição. No interior do espaço, encontra-se uma escultura sobre pedestal de mármore que representa o escritor libanês Gibran Khalil Gibran, reconhecido mundialmente por suas obras poéticas e filosóficas.</p>",
     "curiosidade": "A obra original foi concebida em 1907 e está no Rio de Janeiro; a versão curitibana é uma fundição que celebra o mestre paranaense.",
     "referencia_url": "https://www.curitiba.pr.gov.br/noticias/obra-de-zaco-parana-amor-materno-e-retirada-do-jardim-botanico-para-manutencao/60239"
   },
@@ -24,7 +24,7 @@
     "categoria": "Arquitetura e Memorial",
     "imagem": "https://turismo.curitiba.pr.gov.br/conteudo/memorial-arabe/1632",
     "historia": "<p>Com arquitetura inspirada no estilo mourisco, este cubo sobre o espelho d'água funciona como biblioteca especializada em cultura do Oriente Médio.</p>",
-    "curiosidade": "No seu interior, sobre um pedestal de mármore, está a escultura de Gibran Kalil Gibran, autor do clássico 'O Profeta'.",
+    "curiosidade": "O edifício chama atenção pelo seu estilo arquitetônico inspirado nas construções mouriscas, evidenciado por elementos como abóbadas, colunas, arcos e vitrais. Com pouco mais de 140 metros quadrados de área construída, o Memorial possui formato cúbico e está implantado sobre um espelho d’água, o que reforça sua estética singular e simbólica, tornando-o um dos espaços culturais mais marcantes de Curitiba.",
     "referencia_url": "https://turismo.curitiba.pr.gov.br/conteudo/memorial-arabe/1632"
   },
   {
@@ -37,8 +37,8 @@
     "longitude": -49.30451,
     "categoria": "Fonte e Monumento",
     "imagem": "https://turismo.curitiba.pr.gov.br/conteudo/fonte-jerusalem/2359",
-    "historia": "<p>Um monumento de 14,5 metros que celebra o ecumenismo. Os três anjos no topo representam o Cristianismo, o Judaísmo e o Islamismo.</p>",
-    "curiosidade": "Um painel de azulejos cita um Salmo bíblico identificado como 137, mas o texto grafado é, na verdade, o Salmo 127.",
+    "historia": "<p>A Fonte de Jerusalém foi inaugurada em 22 de dezembro de 1995, em homenagem aos milhares de anos da cidade sagrada de Jerusalém. Com 14,5 metros de altura, a estrutura em alvenaria e concreto armado foi projetada pelo arquiteto Fernando Canalli. No topo do monumento estão três anjos de bronze, com cerca de 600 quilos cada, esculpidos pela artista Lys Áurea Buzzi. As esculturas simbolizam as três principais religiões monoteístas — cristianismo, judaísmo e islamismo — para as quais Jerusalém é uma cidade sagrada. Originalmente, o projeto previa um conceito diferente: o “Memorial às Américas”, idealizado durante a gestão do então prefeito Rafael Greca. A proposta representaria as três Américas por meio dos anjos, posicionados em pedestais de diferentes alturas sobre um espelho d’água. No entanto, mudanças ao longo da execução alteraram significativamente o projeto, resultando no monumento atual. A inauguração contou com a presença de autoridades como o então governador do Paraná Jaime Lerner e o prefeito de Jerusalém Ehud Olmert.</p>",
+    "curiosidade": "O projeto original previa três pedestais com alturas distintas, o que gerou debates sobre possível hierarquia entre as representações. Como solução, optou-se por um único pedestal para sustentar as esculturas. Outra mudança significativa foi a retirada da vegetação da rotatória, que inicialmente seria preservada para integrar o monumento ao ambiente natural. Um detalhe curioso está nos painéis de azulejos fixados na fonte: um deles traz um trecho bíblico atribuído incorretamente ao Salmo 137. Na realidade, o texto corresponde ao Salmo 127:1, conhecido pela frase: “Se o Senhor não edificar a casa, em vão trabalham os que a constroem.” O erro já foi apontado diversas vezes, mas nunca corrigido.",
     "referencia_url": "https://turismo.curitiba.pr.gov.br/conteudo/fonte-jerusalem/2359"
   },
   {
@@ -51,8 +51,8 @@
     "longitude": -49.27199,
     "categoria": "Escultura em Aço",
     "imagem": "https://mid.curitiba.pr.gov.br/2023/capa/00412791.jpg",
-    "historia": "<p>Com 7 metros de altura, a escultura vermelha de Tomie Ohtake celebra a integração nipo-brasileira através de formas geométricas vibrantes.</p>",
-    "curiosidade": "A artista dizia que a obra era uma alusão ao sol e à lua, mas muitos curitibanos enxergam nela as ondas do mar que trouxeram os imigrantes.",
+    "historia": "<p>A Praça do Japão é uma homenagem aos imigrantes japoneses que contribuíram significativamente para o desenvolvimento da cidade. Entre seus principais destaques está a escultura monumental da artista Tomie Ohtake. Com sete metros de altura e produzida em aço, a obra simboliza a força e a presença da comunidade nipônica em Curitiba e no Paraná. Nascida no Japão e radicada no Brasil, Tomie Ohtake construiu um importante legado artístico, marcado por formas geométricas e cores vibrantes, características presentes nesta escultura.</p>",
+    "curiosidade": "A escultura, pintada de vermelho intenso, tornou-se um marco visual na paisagem urbana da cidade. Segundo a própria Tomie Ohtake, a obra faz alusão ao sol e à lua, remetendo também aos ideogramas japoneses que representam esses astros. Outras interpretações também enriquecem seu significado: há quem veja nas formas da escultura as ondas do mar, simbolizando a travessia dos imigrantes japoneses até o Brasil — uma leitura que reforça o caráter histórico e afetivo do monumento.",
     "referencia_url": "https://www.bemparana.com.br/noticias/parana/escultura-de-sete-metros-de-altura-na-praca-do-japao-e-simbolo-da-integracao-da-cidade-diz-prefeito/"
   },
   {
@@ -65,8 +65,8 @@
     "longitude": -49.27386,
     "categoria": "Fonte e Escultura",
     "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0G7iRFaxWJwXR_oQ_-cf1PtawSbWT2rH-Dg&s",
-    "historia": "<p>Homenagem aos tropeiros e colonos que traziam mercadorias ao Largo da Ordem. O cavalo em bronze relembra os antigos bebedouros da praça.</p>",
-    "curiosidade": "O apelido surgiu do povo; dizem que a obra eterniza o cavalo de Ermínia Perusso, a última carroceira de Santa Felicidade.",
+    "historia": "<p>A Fonte da Memória, popularmente conhecida como “Cavalo Babão”, foi instalada em 1995 na Praça Garibaldi, no Largo da Ordem. A obra é de autoria do escultor curitibano Ricardo Tod e homenageia os imigrantes e tropeiros que ajudaram a construir a história econômica da cidade. A escultura representa a cabeça de um cavalo em bronze, de cuja boca escorre água, fazendo referência direta aos animais utilizados no transporte de mercadorias. Durante grande parte do século XX, colonos vindos das áreas rurais de Curitiba utilizavam carroças puxadas por cavalos e mulas para levar produtos hortifrutigranjeiros até o centro da cidade. Ao chegarem, os animais eram deixados próximos ao antigo bebedouro público da região, enquanto seus proprietários comercializavam seus produtos. A fonte resgata essa memória cotidiana, destacando a importância desses trabalhadores e de seus animais no desenvolvimento urbano e comercial da capital paranaense..</p>",
+    "curiosidade": "A obra foi encomendada pelo então prefeito Rafael Greca e também eterniza a história de um cavalo que pertencia à carroceira Erminia Perusso, conhecida por levar produtos de Santa Felicidade até o centro da cidade. O animal, que acabou morrendo em um acidente, tornou-se símbolo dessa tradição. Feita em granito e bronze, a fonte se transformou em um dos pontos mais conhecidos do centro histórico e um marco cultural de Curitiba. Aos domingos, o local ganha ainda mais vida com a tradicional Feira de Arte e Artesanato do Largo da Ordem, realizada desde a década de 1970, atraindo moradores e turistas. O apelido “Cavalo Babão” surgiu de forma espontânea entre a população, em referência à água que escorre continuamente pela boca da escultura — um detalhe que contribui para o carisma e a popularidade do monumento.",
     "referencia_url": "https://turismo.curitiba.pr.gov.br/conteudo/fonte-da-memoria/2363"
   },
   {
@@ -79,8 +79,8 @@
     "longitude": -49.30434,
     "categoria": "Escultura em Aço",
     "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4GhhoNxy4bQVA6uGBpe2LeqIOJoMbE1xThQ&s",
-    "historia": "<p>Localizada no Parque Tingui, esta obra vermelha de 8 metros celebra o centenário do Modernismo e a herança africana no Brasil.</p>",
-    "curiosidade": "Foi doada pelo próprio Emanoel Araújo, fundador do Museu Afro Brasil, e foi uma de suas últimas obras entregues.",
+    "historia": "<p>A escultura Raízes Afro-brasileiras está localizada às margens do lago do Parque Tingui e se destaca na paisagem por sua forma geométrica e cor vermelha intensa. Com oito metros de altura e produzida em aço, a obra foi criada pelo artista Emanoel Araújo como uma homenagem à herança africana na cultura brasileira. A escultura também celebra dois marcos históricos importantes: o centenário do movimento modernista no Brasil e os 200 anos da Independência do país. A instalação da obra foi possível por meio da doação do artista, em parceria com a Galeria Simões de Assis e a empresa curitibana Brafer, reforçando a integração entre arte, iniciativa privada e espaço público.</p>",
+    "curiosidade": "Além de escultor, Emanoel Araújo foi fundador do Museu Afro Brasil, instituição referência na valorização da cultura afro-brasileira. Suas obras são marcadas pelo uso de cores vibrantes, texturas e formas geométricas, características que também podem ser observadas nesta escultura. A entrega oficial da obra contou com a participação do prefeito Rafael Greca, que destacou a relevância do artista para a cultura nacional. Além de sua produção artística, Araújo também deixou um importante legado como colecionador, reunindo cerca de 6 mil obras que hoje integram o acervo do museu em São Paulo. A escultura não apenas embeleza o parque, mas também convida os visitantes a refletirem sobre a influência africana na formação da identidade cultural brasileira, tornando a visita ao local uma experiência artística e educativa.",
     "referencia_url": "https://www.curitiba.pr.gov.br/noticias/no-mes-da-consciencia-negra-curitiba-ganha-ultima-escultura-de-emanoel-araujo/66275"
   },
   {
@@ -92,9 +92,9 @@
     "latitude": -25.43660,
     "longitude": -49.25165,
     "categoria": "Pintura Mural",
-    "imagem": "https://mid-noticias.curitiba.pr.gov.br/2025/00477832.jpg",
-    "historia": "<p>Este mural gigante próximo ao Jardim Botânico é a segunda maior obra de Kobra no mundo, celebrando a street art em escala monumental.</p>",
-    "curiosidade": "Com dimensões impressionantes, a obra só perde em tamanho para o mural do próprio artista em Itapevi (SP).",
+    "imagem": "https://mid-noticias.curitiba.pr.gov.br/2025/00477832.jp",
+    "historia": "<p>O mural \"Ciclos\", do artista Eduardo Kobra, destaca-se como uma das maiores obras de arte urbana já realizadas em Curitiba, reforçando a presença da street art na paisagem cultural da cidade. A obra evidencia a importância da arte contemporânea como ferramenta de transformação e valorização dos espaços públicos.</p>",
+    "curiosidade": "A obra \"Ciclos\" é a segunda maior já produzida por Eduardo Kobra, ficando atrás apenas do mural \"Maior Mural do Mundo\", localizado em Itapevi (SP), com cerca de 5,7 mil metros quadrados. O artista destacou o orgulho de realizar um trabalho dessa dimensão em Curitiba, ressaltando a importância da cidade e o respeito pelos artistas locais de street art.",
     "referencia_url": "https://www.curitiba.pr.gov.br/noticias/curitiba-ganha-a-segunda-maior-obra-do-mundo-do-renomado-artista-eduardo-kobra/76078"
   },
   {
