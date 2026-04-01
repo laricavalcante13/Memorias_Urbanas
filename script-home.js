@@ -12,10 +12,16 @@ scanner.addListener('scan', function (content) {
 });
 
 Instascan.Camera.getCameras().then(function (cameras) {
-  if (cameras.length > 0) {
-    // Tenta pegar a câmera traseira (geralmente a última da lista no Android/Chrome)
-    let selectedCam = cameras[cameras.length - 0];
-    scanner.start(selectedCam);
+   if (cameras.length > 0) {
+    scanner.start(cameras[0]);
+  /*
+    if (cameras.length > 0) {
+      // Tenta pegar a câmera traseira (geralmente a última da lista no Android/Chrome)
+      let selectedCam = cameras[cameras.length - 1];
+      scanner.start(selectedCam);
+
+  */
+  
   }
   else {
     alert('Nenhuma câmera encontrada. Verifique as permissões do navegador.');
