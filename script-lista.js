@@ -13,9 +13,9 @@ fetch('dados.json')
       card.className = 'card';
 
       card.innerHTML = `
-                        <img src="${monumento.imagem}" class="card-img" alt="${monumento.nome_popular}">
+                        <img src="${monumento.imagem}" class="card-img" alt="${monumento.nome_oficial}">
                         <div class="card-info">
-                            <h2>${monumento.nome_popular}</h2>
+                            <h2>${monumento.nome_oficial}</h2>
                             <p>${monumento.categoria} • ${monumento.ano}</p>
                         </div>
                         <div class="seta">→</div>

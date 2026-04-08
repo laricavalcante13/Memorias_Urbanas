@@ -12,9 +12,9 @@ fetch('dados.json')
 
     if (monumento) {
       // 4. Preenche o HTML com as informações
-      document.title = monumento.nome_popular + " | Memórias Urbanas";
+      document.title = monumento.nome_oficial + " | Memórias Urbanas";
       document.getElementById('img-monumento').src = monumento.imagem;
-      document.getElementById('nome-monumento').innerText = monumento.nome_popular;
+      document.getElementById('nome-monumento').innerText = monumento.nome_oficial;
       document.getElementById('categoria').innerText = monumento.categoria;
       document.getElementById('autor').innerText = monumento.autor;
       document.getElementById('ano').innerText = monumento.ano;

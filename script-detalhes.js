@@ -13,7 +13,7 @@ async function carregarDetalhes() {
 
         if (monumento) {
             // 4. Preenche os elementos do HTML com os dados do JSON
-            document.title = `Memórias Urbanas | ${monumento.nome_popular}`;
+            document.title = `Memórias Urbanas | ${monumento.nome_oficial}`;
             document.getElementById('categoria').innerText = monumento.categoria;
             document.getElementById('foto-monumento').src = monumento.imagem;
             document.getElementById('nome-monumento').innerText = monumento.nome_oficial;
@@ -37,14 +37,14 @@ async function carregarDetalhes() {
 
                 // 3. Adiciona o marcador (o "pin") no local exato
                 L.marker([lat, lon]).addTo(map)
-                    .bindPopup(`<b>${monumento.nome_popular}</b><br>Curitiba, PR`)
+                    .bindPopup(`<b>${monumento.nome_oficial}</b><br>Curitiba, PR`)
                     .openPopup();
             }
             
             // Link do Forms (ajuste conforme o seu ID do Google Forms)
             const linkFeedback = document.getElementById('link-feedback');
             if(linkFeedback) {
-                linkFeedback.href = `https://forms.gle/VGrrdsTBfBEYJcrq9?entry.12345=${monumento.nome_popular}`;
+                linkFeedback.href = `https://forms.gle/VGrrdsTBfBEYJcrq9?entry.12345=${monumento.nome_oficial}`;
             }
 
         } else {
